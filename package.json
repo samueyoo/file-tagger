@@ -1,6 +1,9 @@
 {
   "name": "file-tagger-react",
   "version": "0.1.0",
+  "description": "File Tagger is a file organization tool to help sort and search directories with custom flags.",
+  "main": "/electron/main.js",
+  "author": "Samuel Yoo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^20.1.1"
   }
 }
